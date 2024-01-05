@@ -14,13 +14,13 @@ with col1:
     st.header("Training")
     st.info("The dataset consisted of 16 classes. Each image was 28x28")
     st.text("Class Labels: '%', '*','+','-','0','1','2','3','4','5','6','7','8','9','[',']'")
-    st.image("../3_1_0.png", width=200)
+    st.image("/3_1_0.png", width=200)
 
     st.info("The model was trained on a 80/20 split and achieved 98% validation accuracy in 10 epochs")
 
     st.header("Recognition and Prediction")
     st.text("This is the image we will use for explanation")
-    image = cv2.imread('../img_3.png')
+    image = cv2.imread('/img_3.png')
     st.image(image, width=800)
 
     binary_image = preprocess_img(image)

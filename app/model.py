@@ -13,6 +13,6 @@ def load_model():
     model.add(Dense(128, activation='relu'))
     model.add(Dense(16, activation='softmax'))
 
-    model.load_weights("../my_model_v1.keras")
+    model.load_weights("/my_model_v1.keras")
 
     return model
