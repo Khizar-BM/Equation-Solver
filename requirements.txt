@@ -1,0 +1,8 @@
+imutils==0.5.4
+keras==2.15.0
+numexpr==2.8.8
+numpy==1.26.3
+opencv_python==4.8.1.78
+Pillow==10.1.0
+Pillow==10.2.0
+streamlit==1.29.0
